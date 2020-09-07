@@ -1,0 +1,54 @@
+{
+  "name": "rephper/yii2-lazy-tools",
+  "description": "Yii2 Extension lazy tools",
+  "keywords": [
+    "yii2",
+    "framework",
+    "extension",
+    "lazy",
+    "tools"
+  ],
+  "homepage": "https://github.com/rephper/yii2-lazy-tools",
+  "type": "yii2-extension",
+  "license": "Mozilla Public License 2.0",
+  "authors": [
+    {
+      "name": "Clark King",
+      "email": "C18666211369@outlook.com",
+      "homepage": "https://github.com/rephper",
+      "role": "Founder and project lead"
+    }
+  ],
+  "support": {
+    "issues": "",
+    "forum": "/",
+    "wiki": "",
+    "irc": "",
+    "source": "https://github.com/rephper/yii2-lazy-tools"
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "yiisoft/yii2": ">=2.0.6",
+    "ext-mbstring": "*",
+    "ext-ctype": "*",
+    "lib-pcre": "*",
+    "yiisoft/yii2-composer": "~2.0.4",
+    "ezyang/htmlpurifier": "~4.6",
+    "cebe/markdown": "~1.0.0 | ~1.1.0",
+    "bower-asset/jquery": "2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
+    "bower-asset/jquery.inputmask": "~3.2.2 | ~3.3.5",
+    "bower-asset/punycode": "1.3.*",
+    "bower-asset/yii2-pjax": "~2.0.1"
+  },
+  "autoload": {
+    "psr-4": {"yii\\": ""}
+  },
+  "bin": [
+    "yii"
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    }
+  }
+}
