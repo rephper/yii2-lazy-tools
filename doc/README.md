@@ -5,6 +5,8 @@
 #### redis、文件、片段
 ### DateTimeHelper 日期、时间
 #### 格式化、计算
+### ErrorHelper 错误处理
+#### errorCode定义、日志记录
 ### ExcelHelper Excel 格式化处理
 #### 导出、导出、格式、样式
 ### FileHelper 文件处理
@@ -22,6 +24,7 @@
 ### BaseApiController
 ### BaseConsoleController
 ### BaseWebController
+### BaseService
 ### BaseForm
 ### BaseSearch
 
